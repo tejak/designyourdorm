@@ -1,38 +1,58 @@
-/*.wall{
-  position : absolute;
-  bottom : 50px;
-  height : 75%;
-  width : 200px;
-  border-bottom : 50px;
-  border-top : 50px;
-  background-color : red;
-}*/
-
-.room-container{
-	border-left: 100px solid rgb(255, 255, 173);
-	border-bottom: 200px solid rgb(117, 71, 25);
-	border-right : 100px solid rgb(255, 255, 173);
-  background-color : rgb(230, 230, 156);
-	height : 300px;
-	bottom : 250px;
-  width : 600px;
-}
-
-.wall.right{
-  border-left : 100px;
-  border-right : 0px;
-  right : 100px;
+body{
+  background-image : url("../img/background.jpg");
+  background-size : 100%;
+  background-repeat: no-repeat;
 }
 
 .container{
-  width : 1080px;
-  height : 720px;
-  background-color : grey;
+  width : 900px;
+  height : 600px;
+  background-color : transparent;
+}
+
+.room-container{
+  background-color : rgb(230, 230, 156);
+  border-bottom : 200px solid rgb(117, 71, 25);
+	border-left   : 100px solid rgb(255, 255, 173);
+	border-right  : 100px solid rgb(255, 255, 173);
+  margin-left   : auto;
+  margin-right  : auto;
+  
+  height : 300px;
+  width  : 600px;
 }
 
 .dragged{
   background-color : green;
   width : 100px;
   height : 100px;
-  max-right : 760px;
+}
+
+header{
+  top : 0px;
+  width : 900px;
+  background-color : #CCCCCC;
+  border-radius : 10px;
+  margin-bottom : 0px;
+}
+
+header h1{
+  font-size : 250%;
+}
+
+header h1 span{
+  font-size : 150%;  
+  font-family : "Courier New";
+}
+
+.D{
+  color : white;
+}
+
+.Y{
+  color : green;
+}
+
+.D-2{
+  color : blue;
 }

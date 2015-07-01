@@ -18,6 +18,10 @@
   width : 600px;
 }
 
+.item-thumbnail {
+  width: 75px;
+}
+
 #draggable-menu-wrapper {
   width: 400px;
   position: absolute;

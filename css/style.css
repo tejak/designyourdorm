@@ -18,6 +18,13 @@
   width : 600px;
 }
 
+#draggable-menu-wrapper {
+  width: 400px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
 .wall.right{
   border-left : 100px;
   border-right : 0px;

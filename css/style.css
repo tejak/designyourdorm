@@ -36,3 +36,7 @@
   height : 100px;
   max-right : 760px;
 }
+
+.color-forms {
+  display: inline-block;
+}

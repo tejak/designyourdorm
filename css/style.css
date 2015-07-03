@@ -1,5 +1,4 @@
 body{
-  background-image : url("../img/background.jpg");
   background-size : 100%;
   background-repeat: no-repeat;
 }
@@ -8,27 +7,29 @@ body{
   width: 75px;
 }
 
+
 #draggable-menu-wrapper {
   width: 400px;
   position: absolute;
   right: 0px;
   top: 0px;
+  background-color : #CCC;
 }
 
 .container{
-  width : 900px;
+  width : 100%;
   height : 600px;
   background-color : transparent;
-
+  position : relative;
 }
 
 .room-container{
+  display : inline-block;
   background-color : rgb(230, 230, 156);
   border-bottom : 200px solid rgb(117, 71, 25);
 	border-left   : 100px solid rgb(255, 255, 173);
 	border-right  : 100px solid rgb(255, 255, 173);
-  margin-left   : auto;
-  margin-right  : auto;
+  margin-left   : 25px;
   
   height : 300px;
   width  : 600px;
@@ -46,6 +47,8 @@ header{
   background-color : #CCCCCC;
   border-radius : 10px;
   margin-bottom : 0px;
+  margin-left : auto;
+  margin-right : auto;
 }
 
 header h1{
@@ -62,9 +65,26 @@ header h1 span{
 }
 
 .Y{
-  color : green;
+  color : red;
 }
 
 .D-2{
-  color : blue;
+  color : white;
+}
+
+#draggable-menu div{
+  background-color : #CCC;
+  border     : 3px solid black;
+  border-top : 0px solid black;
+  height : 150px;
+}
+
+#draggable-menu h3{
+  text-align : center;
+  background-color : #9090FF;
+  border : 3px solid black;
+}
+
+.room-container img{
+  width : 25%;
 }
